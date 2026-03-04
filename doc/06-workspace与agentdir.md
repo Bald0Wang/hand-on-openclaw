@@ -1,4 +1,4 @@
-﻿# 6. Workspace 与 AgentDir 的奥秘
+﻿1. # Workspace 与 AgentDir 的奥秘
 
 在 OpenClaw 的世界里，构建一个 AI Agent（智能体）不仅仅是调用一个模型，而是为一个数字生命构建它的“办公室”和“记忆宫殿”。理解 **Workspace** 和 **AgentDir**，就是理解 OpenClaw 如何让 AI 拥有个性、技能和边界的关键。
 
@@ -20,13 +20,13 @@ AgentDir 是存放 **运行状态** 的地方（通常位于 `~/.openclaw/agents
 
 ## 6.2  拟人化理解：Workspace 中的8个md 
 
-![img](https://ccnpfm0xlkhu.feishu.cn/space/api/box/stream/download/asynccode/?code=YTgyN2FlYjA0MmQ5NDMyYmE5OTQwYzllMDliNzcwYWRfVFIycjNFVENLZElqR3MyUHRnUFFVZnRpczZPNzZRSUVfVG9rZW46R3BvdmJIaFB5b0NoMlF4S096bmNrM2ZpbklkXzE3NzIzNzYxOTQ6MTc3MjM3OTc5NF9WNA)
+![img](img/6-1.png)
 
 【这个图画的太好了哈哈~】
 
 在 Workspace 中，有八个关键的 Markdown 文件，它们被 OpenClaw 自动注入到 System Prompt（系统提示词）中。我们可以用拟人化的比喻来理解它们：
 
-文件名拟人化角色价值与代表意义SOUL.md灵魂与三观核心价值观。 它决定了 Agent 的底色（是毒舌、温柔还是专业冷淡）。它不教做事，只教“做人”。AGENTS.md组织架构图社交边界。 记录了当前环境中还有哪些其他 Agent 存在，以及如何与它们协作或求助。IDENTITY.md身份证基本信息。 包含 Agent 的名字、职衔、所属部门。它让 Agent 知道“我是谁”。USER.md老板的喜好用户画像。 记录了你（用户）的偏好。比如：“老板不喜欢废话”、“老板习惯用繁体中文”。TOOLS.md工具操作手册技能说明书。 详细描述了 Agent 手头有哪些特殊工具以及如何正确、安全地使用它们。MEMORY.md长期日记本核心记忆。 记录了最重要的历史事件、学到的长期知识或未完成的重大任务。BOOTSTRAP.md入职培训手册初始引导。 仅在 Agent 第一次“出生”时使用，告诉它第一步该干什么，随后通常会被遗忘或归档。HEARTBEAT.md生理脉搏状态感知。 规定了 Agent 在闲置或定时检查时该如何“自省”或主动触发动作。
+![img](img/6-2.png)
 
 ## 6.3 如何通过 Workspace 塑造你的 Agent
 
@@ -34,7 +34,7 @@ AgentDir 是存放 **运行状态** 的地方（通常位于 `~/.openclaw/agents
 
 也就是打开我们最开始的那个URL（网址：http://127.0.0.1:18789/agents）
 
-![img](https://ccnpfm0xlkhu.feishu.cn/space/api/box/stream/download/asynccode/?code=NjAxOGEzMWRkMDExYjA0NDQ0YzMzZmJmM2NiY2Y4YmVfbmZjV2pGTGc5MnFMeXl4MDU2MlpReUhBcjhHeGFDNkZfVG9rZW46VURqMWJDQm1tb1hlTXJ4dzlMRGNGa3pGbjNiXzE3NzIzNzYxOTQ6MTc3MjM3OTc5NF9WNA)
+![img](img/6-3.png)
 
 ### 第二步：注入“灵魂” (编辑 SOUL.md)
 
@@ -46,7 +46,7 @@ AgentDir 是存放 **运行状态** 的地方（通常位于 `~/.openclaw/agents
 
 https://docs.openclaw.ai/reference/AGENTS.default
 
-![img](https://ccnpfm0xlkhu.feishu.cn/space/api/box/stream/download/asynccode/?code=NzkxOTFhMGRlNzE2ZmQ4N2JhY2IwOTYzNzRlYjAwNjdfbzFoRGY2MFNsU0tobjh4ZjdSM0RPYmFtakl3Q243OHhfVG9rZW46WlFuTGIzbk1lb1JIN1R4UjRINWNhT1hjbnJiXzE3NzIzNzYxOTQ6MTc3MjM3OTc5NF9WNA)
+![img](img/6-4.png)
 
 ### 第三步：理解注入机制 (System Prompt Injection)
 

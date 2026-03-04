@@ -1,6 +1,6 @@
 ﻿# hand-on-openclaw
 
-`hand-on-openclaw` 是一个面向零基础用户的 OpenClaw 中文开源教程项目，目标是提供从安装到实战的完整参考手册。
+`hand-on-openclaw` 是一个面向零基础学习者的 OpenClaw 中文开源教程项目，目标是提供从安装到实战的完整参考手册。
 
 ## 项目目标
 
@@ -8,6 +8,42 @@
 - 模块化设计：可按需跳读，不必按固定学习节奏
 - 图文并茂：关键步骤配截图，降低实操门槛
 - 中国用户友好：优先覆盖国内常用模型与平台（DeepSeek / 智谱 / Moonshot、飞书 / 钉钉 / 企业微信）
+
+## 项目亮点
+
+- 端到端闭环：从 `Windows + WSL` 安装、`openclaw onboard`、飞书接入，到多 Agent 与 Skills 使用，形成完整落地链路。
+- 零基础友好：按操作顺序拆分章节，保留截图驱动的步骤说明，强调“做完可验证”的实操路径。
+- 中国场景优先：优先覆盖国内用户高频渠道与模型，降低网络、支付、可用性门槛。
+- 结构化演进：README 明确区分“当前状态（已完成）”与“Roadmap（计划）”，便于协作和持续迭代。
+- 可迁移到工程化文档站：已预留 MkDocs 站点化目录与示例工程结构，后续可平滑升级到文档网站。
+
+## 同类项目调研（2026-03-01 快照）
+
+### 调研口径
+
+- 检索范围：官方文档 + GitHub 上 `openclaw` 相关 `tutorial/docs/awesome/skills` 项目。
+- 评估维度：定位（官方/教程/导航/技能清单）、内容完整度、面向人群、可执行性。
+- 数据来源：GitHub API（星标、更新时间、仓库描述）与官方文档页面。
+
+### 已发现的主要类似项目
+
+| 项目 | 类型/定位 | 已验证信号（2026-03-01） | 与本项目的主要差异 |
+| --- | --- | --- | --- |
+| [`openclaw/openclaw`](https://github.com/openclaw/openclaw) | 官方核心仓库（产品与代码） | 242,346 stars；持续更新 | 偏产品与开发实现，不是中文零基础图文教程。 |
+| [`docs.openclaw.ai`](https://docs.openclaw.ai/start/getting-started) | 官方文档（Quickstart/CLI Wizard） | 官方站点；含 `Getting Started` 与 `Onboarding Wizard` | 权威但更偏通用说明，国内平台和本土化实战覆盖有限。 |
+| [`SamurAIGPT/awesome-openclaw`](https://github.com/SamurAIGPT/awesome-openclaw) | 生态导航/资源聚合 | 713 stars；持续更新 | 更像“索引目录”，不提供从 0 到 1 的连续实操手册。 |
+| [`VoltAgent/awesome-openclaw-skills`](https://github.com/VoltAgent/awesome-openclaw-skills) | Skills 清单与分类 | 23,835 stars；强调 5,400+ skills | 强在技能发现，不负责安装部署与渠道接入全流程教学。 |
+| [`sundial-org/awesome-openclaw-skills`](https://github.com/sundial-org/awesome-openclaw-skills) | Skills 热门清单 | 307 stars；持续更新 | 同样偏“技能推荐”，不是系统化入门教程。 |
+| [`yeuxuan/openclaw-docs`](https://github.com/yeuxuan/openclaw-docs) | 社区中文教程/拆解文档 | 447 stars；近期活跃 | 与本项目同属教程方向，但本项目更强调“按步骤可复现 + 飞书多智能体落地链路”。 |
+| [`mengjian-github/openclaw101`](https://github.com/mengjian-github/openclaw101) | 中文学习站/资源聚合 | 595 stars；`OpenClaw 101` 定位 | 偏资源平台与课程化组织，本项目更聚焦开源文档手册与可复制操作细节。 |
+
+### 本项目的差异化定位
+
+1. 相比官方文档：本项目更聚焦中文用户实操路径，补充国内模型/平台和踩坑经验。
+2. 相比 awesome 清单：本项目不是“链接集合”，而是“可一步步照做的流程文档”。
+3. 相比 Skills 清单项目：本项目覆盖安装、配置、渠道、Agent、Skills 的全链路，不只讲技能选择。
+4. 相比部分社区教程：本项目将“当前状态 + 计划路线”写入 README，强调长期维护与工程化演进。
+5. 相比一次性教程帖：本项目采用模块化拆分，支持按需跳读，同时保留完整阅读顺序索引。
 
 ## 当前状态（截至 2026-03-01）
 
@@ -22,7 +58,6 @@
 ```text
 hand-on-openclaw/
 ├── README.md
-├── hand-on-openclaw.md                # 原始单文件教程（保留）
 └── doc/
     ├── 00-阅读顺序.md
     ├── 01-介绍.md

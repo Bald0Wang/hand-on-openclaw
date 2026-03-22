@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="image.png" alt="cover" />
+</p>
+
 <h1 align="center">hand-on-openclaw</h1>
 
 <h3 align="center">《OpenClaw 中文安装与使用手册》</h3>
@@ -60,19 +64,19 @@
 - `安全性`：仅作为上手层面的相对建议，不代表严格安全审计结论
 - `IM接入`：是否包含 QQ / 飞书 / 企业微信等接入内容
 
-| 教程 | API配置 | 环境 | 安全性 | IM接入 |
-| --- | --- | --- | --- | --- |
-| [Windows-WSL-飞书群聊入门](./doc/怎么安装openclaw/Windows-WSL-飞书群聊入门.md) | 有 | 本地 | 中 | 飞书 |
-| [Windows WSL2 + GLM API 接入 OpenClaw](./doc/怎么安装openclaw/Windows%20WSL2%20+%20GLM%20API%20接入%20OpenClaw.md) | 有 | 本地 | 中 | 无 |
-| [openclaw docker配置](./doc/怎么安装openclaw/openclaw%20docker配置.md) | 有 | 本地 | 高 | 飞书 |
-| [clawX安装openclaw（qq、飞书、企微）](./doc/怎么安装openclaw/clawX安装openclaw（qq、飞书、企微）.md) | 有 | 本地 | 中 | QQ / 飞书 / 企业微信 |
-| [Kimi Claw 与本地 OpenClaw 飞书接入教程](./doc/怎么安装openclaw/Kimi%20Claw%20与本地%20OpenClaw%20飞书接入教程.md) | 有 | 本地 / 云均可 | 中 | 飞书 |
-| [LM Studio qwen3.5本地模型接入 OpenClaw](./doc/怎么安装openclaw/LM%20Studio%20%20qwen3.5本地模型接入%20OpenClaw.md) | 有 | 本地 | 中 | 无 |
-| [macos虚拟机隔离安装 OpenClaw](./doc/怎么安装openclaw/macos虚拟机隔离安装%20OpenClaw.md) | 无 | 本地 | 高 | 无 |
-| [Step 3.5 Flash API Key 与 OpenClaw 配置](./doc/怎么安装openclaw/Step%203.5%20Flash%20API%20Key%20与%20OpenClaw%20配置.md) | 有 | 本地 / 云均可 | 中 | 无 |
-| [火山豆包模型接入 OpenClaw](./doc/怎么安装openclaw/火山豆包模型接入%20OpenClaw.md) | 有 | 本地 | 中 | 无 |
-| [火山 Coding Plan 小白配置教程](./doc/怎么安装openclaw/火山%20Coding%20Plan%20小白配置教程.md) | 有 | 本地 | 中 | 无 |
-| [阿里云 Coding Plan 接入 OpenClaw](./doc/怎么安装openclaw/阿里云%20Coding%20Plan%20接入%20OpenClaw.md) | 有 | 本地 | 中 | 无 |
+| 教程 | 适用的操作系统 | API配置 | 环境 | 安全性 | IM接入 |
+| --- | --- | --- | --- | --- | --- |
+| [Windows-WSL-飞书群聊入门](./doc/怎么安装openclaw/Windows-WSL-飞书群聊入门.md) | Windows | 有 | 本地 | 中 | 飞书 |
+| [Windows WSL2 + GLM API 接入 OpenClaw](./doc/怎么安装openclaw/Windows%20WSL2%20+%20GLM%20API%20接入%20OpenClaw.md) | Windows | 有 | 本地 | 中 | 无 |
+| [openclaw docker配置](./doc/怎么安装openclaw/openclaw%20docker配置.md) | Windows / macOS / Linux | 有 | 本地 | 高 | 飞书 |
+| [clawX安装openclaw（qq、飞书、企微）](./doc/怎么安装openclaw/clawX安装openclaw（qq、飞书、企微）.md) | Windows | 有 | 本地 | 中 | QQ / 飞书 / 企业微信 |
+| [Kimi Claw 与本地 OpenClaw 飞书接入教程](./doc/怎么安装openclaw/Kimi%20Claw%20与本地%20OpenClaw%20飞书接入教程.md) | Windows / macOS / 云端 | 有 | 本地 / 云均可 | 中 | 飞书 |
+| [LM Studio qwen3.5本地模型接入 OpenClaw](./doc/怎么安装openclaw/LM%20Studio%20%20qwen3.5本地模型接入%20OpenClaw.md) | Windows | 有 | 本地 | 中 | 无 |
+| [macos虚拟机隔离安装 OpenClaw](./doc/怎么安装openclaw/macos虚拟机隔离安装%20OpenClaw.md) | macOS | 无 | 本地 | 高 | 无 |
+| [Step 3.5 Flash API Key 与 OpenClaw 配置](./doc/怎么安装openclaw/Step%203.5%20Flash%20API%20Key%20与%20OpenClaw%20配置.md) | Windows / macOS / Linux / 云端 | 有 | 本地 / 云均可 | 中 | 无 |
+| [火山豆包模型接入 OpenClaw](./doc/怎么安装openclaw/火山豆包模型接入%20OpenClaw.md) | Windows / macOS / Linux | 有 | 本地 | 中 | 无 |
+| [火山 Coding Plan 小白配置教程](./doc/怎么安装openclaw/火山%20Coding%20Plan%20小白配置教程.md) | Windows / macOS | 有 | 本地 | 中 | 无 |
+| [阿里云 Coding Plan 接入 OpenClaw](./doc/怎么安装openclaw/阿里云%20Coding%20Plan%20接入%20OpenClaw.md) | Windows / macOS / Linux | 有 | 本地 | 中 | 无 |
 
 ### 使用 OpenClaw
 

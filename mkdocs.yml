@@ -3,6 +3,7 @@ site_description: OpenClaw 中文教程，覆盖安装、初始化、ClawHub 与
 repo_name: Bald0Wang/hand-on-openclaw
 repo_url: https://github.com/Bald0Wang/hand-on-openclaw
 docs_dir: doc
+site_dir: docs
 
 theme:
   name: material
